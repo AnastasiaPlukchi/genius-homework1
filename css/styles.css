@@ -1,0 +1,92 @@
+:root {
+  --color-brand-light: #2B7FFF;
+  --color-brand-dark: #011C44;
+  --color-primary-light: #FFF; 
+  --coor-primary-dark: #4A4A4A;
+}
+
+/*Body*/
+body {
+  color: var(--color-brand-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo-brand {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+
+.logo-brand:hover {
+  color: var(--color-brand-light);
+  text-decoration: underline;
+}
+
+/*Link*/
+.link {
+  color: var(--color-brand-light);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-brand-dark);
+  background-attachment: var(--color-brand-dark);
+}
+
+/*Hero-section*/
+.hero-title {
+  color: var(--color-brand-light);
+}
+
+/*Button*/
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand-dark);
+  background-color: transparent;
+}
+
+.hero-accent {
+  color: var(--coor-primary-dark);
+}
+
+/*section-title*/
+.brand-color {
+  color: var(--color-brand-light);
+}
+
+/*Transformations-section*/
+
+/*Advantages-section*/
+.tradition-title {
+  color: black;
+}
+
+/*Procedures-section*/
+
+/*Contacts-section*/
+.location-section {
+  color: var(--color-primary-light);
+}
+
+.confidance {
+  color: var(--coor-primary-dark);
+}
+
+/*Footer*/
+.link-footer {
+  color: var(--color-primary-light);
+  text-decoration: none;
+}
+
+.link-footer:hover {
+  text-decoration: underline;
+}
